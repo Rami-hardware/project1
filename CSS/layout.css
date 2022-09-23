@@ -1,0 +1,54 @@
+/*grid for main page*/
+.mainContainer {
+    display: grid;
+    grid-gap: 30px;
+    margin: 50px;
+    grid-template-areas: "tops tops""lef righ""fot fot";
+    padding: 10px;
+}
+/*Flex for main page*/
+.MainBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px;
+}
+/*spical flex for main*/
+.MainBox:first-child {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+/*add area for nav*/
+#nav {
+    grid-area: tops;
+}
+/*add area for nav*/
+#post-left {
+    grid-area: lef;
+    padding: 10px;
+}
+/*add area for nav*/
+#post-right {
+    grid-area: righ;
+    padding: 10px;
+}
+/*add area for nav*/
+#footer {
+    text-align: center;
+    grid-column: 1 /2;
+}
+/*grid for post page*/
+.postGr {
+    display: grid;
+    padding: 20px;
+    grid-gap: 10px;
+}
+/*Flex for post page*/
+.postBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 5px;
+}

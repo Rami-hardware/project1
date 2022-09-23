@@ -1,0 +1,62 @@
+/*commne styles*/
+*{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+/*main page*/
+.btn{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #7ccbec;
+    border-radius: 10px;
+    margin-top: 13px;
+}
+.btn:hover{
+    background-color: #7ccbec;
+    transition: 0.5s;
+    color: #fff;
+}
+.search{
+    margin-top: 18px;
+    border: 1px solid #7ccbec;
+    border-radius: 10px;
+    padding: 10px;
+}
+.footer{
+    margin-left: 10px;
+}
+/*main page*/
+/*post page*/
+a{
+    color: #777;;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+    color:blue;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+ .Avater {
+    border-radius: 150px;
+    width: 50px;
+    height: 50px;
+    display: inline;
+    margin-bottom: 12px;
+    margin-right: 10px;
+}
+
+.auother{
+    display: inline-block;
+}
+.headerImg{
+    padding-left: 450px;
+    width:1000px;
+    height:500px
+}
+.learnBox{
+    border-left: 3px solid #7ccbec;
+    background-color: #f4f5f6;
+    box-shadow: 15px 15px 15px #c4bbbb;
+}
+.footer{
+   padding: 100px;
+}
+/*post page*/

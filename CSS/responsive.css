@@ -1,0 +1,103 @@
+@import url(layout.css);
+
+/*main page*/
+@media(max-width:320px){
+  /*main page*/
+  .mainContainer {
+    display: block;
+    padding: 10px;
+}
+.MainBox {
+ margin: 10px;
+  padding: 10px;
+  width: 280px;
+  margin-left: -57px;
+}
+h1{
+  font-size: 25px;
+
+}
+.search{
+  width: 20%;
+  margin-right: -18px;
+}
+.btn{
+  width: 25%;
+  margin-top: 17px;
+  margin-left: -22px;
+  padding-left: 3px;
+}
+.footer{
+  padding: 10px;
+}
+/*main page*/
+/*post page*/
+.postGr {
+  display: block;
+  padding: 20px;
+  grid-gap: 10px;
+}
+.Avater {
+  margin-bottom: 60px;
+  margin-right: 10px;
+}
+.headerImg{
+  padding-left: 0;
+  width:259px;
+  height:750px
+}
+/*post page*/
+}
+@media(min-width:901px){
+  /*main page*/
+  #footer {
+    text-align: center;
+    grid-column: 1 / 3;
+}
+/*main page*/
+/*post page*/
+.postGr {
+  display: block;
+  padding: 20px;
+  grid-gap: 10px;
+}
+.Avater {
+  margin-bottom: 15px;
+}
+.headerImg{
+  padding-left: 0;
+  width:100%;
+  height:750px
+}
+/*post page*/
+}
+@media(min-width:600px) and (max-width:900px){
+  /*main page*/
+  .mainContainer {
+    display: block;
+    padding: 10px;
+}
+/*main page*/
+.MainBox {
+ margin: 10px;
+  padding: 10px;
+  width: 550px;
+  margin-left: -57px;
+}
+/*main page*/
+/*post page*/
+.postGr {
+  display: block;
+  padding: 20px;
+  grid-gap: 10px;
+}
+.Avater {
+  margin-bottom: 20901px;
+}
+.headerImg{
+  padding-left: 0;
+  width:540px;
+  height:750px
+}
+/*post page*/
+}

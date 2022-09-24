@@ -36,20 +36,20 @@ h1{
 /*main page*/
 /*post page*/
 .postGr {
-  display: block !important;
-  padding: 20px!important;
-  grid-gap: 10px !important;
+  display: block ;
+  padding: 20px;
+  grid-gap: 10px ;
 }
 .Avater {
   margin-bottom: 23px;
   margin-right: 10px;
 }
 .headerImg{
-  width:560px !important;
-  height:750px
+  width:100%;
+  height:100%;
 }
 .postBox {
-  width: 621px  !important;
+  width: 621px;
   padding: 5px;
 }
 /*post page*/
@@ -80,12 +80,12 @@ h1{
   padding: 10px;
 }
 .respon{
-  width: 294px;
+  width: 100%;
 }
 .postGr {
-  display: block !important;
-  padding: 20px!important;
-  grid-gap: 10px !important;
+  display: block;
+  padding: 20px;
+  grid-gap: 10px ;
 }
 .Avater {
   margin-bottom: 60px;
@@ -100,8 +100,8 @@ h1{
 @media(max-width:1024px) and (max-width:1200px){
   .headerImg{
     padding-left: 0px;
-    width:650px;
-    height:750px
+    width:100%;
+    height:100%
   }
   .Avater {
     margin-bottom: 19px;

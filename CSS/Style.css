@@ -1,3 +1,4 @@
+
 @import url(layout.css);
 @import url(subLayout.css);
 /*commne styles*/
@@ -27,6 +28,10 @@
 .Social{
 list-style: none;
 }
+.respon{
+    width:350px; 
+    height:250px;
+}
 /*main page*/
 /*post page*/
 a{
@@ -52,7 +57,6 @@ a:hover{
     display: inline-block;
 }
 .headerImg{
-    padding-left: 450px;
     width:1000px;
     height:500px
 }

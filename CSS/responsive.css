@@ -1,5 +1,6 @@
 @import url(layout.css);
-
+@import url(subLayout.css);
+@import url(Style.css);
 /*main page*/
 @media(max-width:320px){
   /*main page*/

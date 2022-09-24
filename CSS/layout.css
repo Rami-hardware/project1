@@ -39,16 +39,3 @@
     text-align: center;
     grid-column: 1 /2;
 }
-/*grid for post page*/
-.postGr {
-    display: grid;
-    padding: 20px;
-    grid-gap: 10px;
-}
-/*Flex for post page*/
-.postBox {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    padding: 5px;
-}

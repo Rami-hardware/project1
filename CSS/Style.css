@@ -1,3 +1,5 @@
+@import url(layout.css);
+@import url(subLayout.css);
 /*commne styles*/
 *{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 /*main page*/
@@ -21,6 +23,9 @@
 }
 .footer{
     margin-left: 10px;
+}
+.Social{
+list-style: none;
 }
 /*main page*/
 /*post page*/
